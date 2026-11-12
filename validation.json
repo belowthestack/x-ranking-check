@@ -1,0 +1,573 @@
+[
+  {
+    "handle": "heyandras",
+    "url": "https://x.com/heyandras/status/2118317064033300708",
+    "views": 2277,
+    "ratio": 0.58,
+    "label": "DUD",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It never names the product or says what the Forgejo integration lets users do, so strangers have no reason to care.",
+    "text": "Forgejo integration coming next https://t.co/PE6ja6zlOH"
+  },
+  {
+    "handle": "heyandras",
+    "url": "https://x.com/heyandras/status/2118365932707803583",
+    "views": 4768,
+    "ratio": 1.2,
+    "label": "MID",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It never says what Coolify is or what 4.7 changes, so strangers have no reason to care.",
+    "text": "Coolify 4.7 is almost ready btw. https://t.co/pz7eaIlXzq"
+  },
+  {
+    "handle": "heyandras",
+    "url": "https://x.com/heyandras/status/2118621803857813687",
+    "views": 6257,
+    "ratio": 1.58,
+    "label": "MID",
+    "earned_weight": 4.71,
+    "forfeited": 38.12,
+    "earned": [
+      "Follow author",
+      "Like"
+    ],
+    "biggest_miss": "It says images are badly broken but never shows how bad: no counts, CVEs, or named popular images.",
+    "text": "We will have vulnerability scanner integrated in Coolify 4.7. \n\nWhile I was testing it (as its added by @AdityaTripathiD) I realized how broken and outdated images really are. https://t.co/kiIFuCjBRl"
+  },
+  {
+    "handle": "heyandras",
+    "url": "https://x.com/heyandras/status/2118646010306007136",
+    "views": 6033,
+    "ratio": 1.52,
+    "label": "MID",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "The post never states a single fun fact, the domain, or how it saves money, giving readers no reason to click.",
+    "text": "I soon ready with the new Orbit version.\n\nBut I put together a fun facts page about https://t.co/UzkfzV4bLI because it was scary to buy an expensive domain without knowing if its worth it or anything.\n\nIt was a hard decision, but sometimes I have to be brave and yolo.\n\nBut I did for the people to save them money, so its worth it. \ud83e\udee1\n\nYou support my work, I save you money or time.\nIt is simple."
+  },
+  {
+    "handle": "heyandras",
+    "url": "https://x.com/heyandras/status/2118716037344403707",
+    "views": 3959,
+    "ratio": 1.0,
+    "label": "MID",
+    "earned_weight": 4.71,
+    "forfeited": 38.12,
+    "earned": [
+      "Follow author",
+      "Like"
+    ],
+    "biggest_miss": "There's no hook or context: it never says what the three products are, and the strongest item (self-hosted vulnerability scanning) is buried in a 40-line wall.",
+    "text": "friday releases/tag party\n\ncoolify 4.7.0 (will be released on monday, as I want a calm weekend, sry)\n\n- container image vulnerability scanning that runs on your own server\n- github deployments sync\n- sftp, ftps and webdav backup storages\n- ssh host key pinning, ed25519 keys and one-click key rotation\n- forgejo and codeberg support\n- valkey as the new default for redis databases\n- more than one smtp server, smtp templates and resend in one email provider list\n- cancel older queued deployments when a newer push arrives\n- automatic update notifications\n- cleanup for unused traefik certificates\n- s3 skip tls verification for self-signed endpoints\n- scheduled tasks without a shell (for distroless images)\n- list view for new resources and a ui scale option\n- orbit service template (oh yeah)\n- many fixes\n\norbit 0.2.0 (cloud upgraded!)\n\n- incoming chat webhooks with block kit and buttons\n- import your projects from asana, linear and trello\n- a public rest api with scoped tokens\n- api tokens and mcp grants that can cover all projects\n- new mcp tools for sub-issues and chat search\n- oauth consent with per-resource access\n- emoji shortcodes in markdown\n- static linux binaries for each release\n- many fixes\n\njean 1.0.14\n\n- sub-sessions grouped under their lead session, with results sent back\n- send prompts in the background with cmd+enter\n- remote mcp endpoints with token auth\n- secret requests through jean mcp, scoped to a project or agent\n- jean review runs in its own review session\n- search sessions, messages and settings from the command palette\n- live activity and agent-written status in agent chats\n- configurable shortcuts for permission approvals\n- opt-in ssh agent forwarding\n- agent browser on by default, with auto-updates\n- swipe actions and compact rows on mobile, plus an offline page\n- instant session open with preload on hover\n- many fixes"
+  },
+  {
+    "handle": "heyandras",
+    "url": "https://x.com/heyandras/status/2118749850141438417",
+    "views": 2247,
+    "ratio": 0.57,
+    "label": "DUD",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "The post never says what the link is or why a stranger should care, so it offers nothing to act on.",
+    "text": "it looks like i will really have a slow weekend. \ud83d\ude05 https://t.co/YBPAV6rOpy"
+  },
+  {
+    "handle": "heyandras",
+    "url": "https://x.com/heyandras/status/2119726356355334639",
+    "views": 2278,
+    "ratio": 0.58,
+    "label": "DUD",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It announces a feature without naming the concrete pain it removes or a specific use case, so non-users have no reason to care.",
+    "text": "Guest invitations to private channels coming to Orbit.\n\nInvite partners, collaborators, anyone. https://t.co/pmxOz04Xfo"
+  },
+  {
+    "handle": "DmytroKrasun",
+    "url": "https://x.com/DmytroKrasun/status/2116851626283860062",
+    "views": 5992,
+    "ratio": 1.85,
+    "label": "MID",
+    "earned_weight": 5.71,
+    "forfeited": 37.12,
+    "earned": [
+      "Reply",
+      "Like"
+    ],
+    "biggest_miss": "It never says what the agents actually did that broke intuition, so there's nothing concrete to share or quote.",
+    "text": "Engineering with agents still breaks my intuition.\n\nI often feel like a shepherd driving sheep in the direction I need.\n\nBut the sheep are smarter than me. Why do I need to be the shepherd at all?"
+  },
+  {
+    "handle": "DmytroKrasun",
+    "url": "https://x.com/DmytroKrasun/status/2117238346418422029",
+    "views": 16518,
+    "ratio": 5.1,
+    "label": "WIN",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "The post never states the question it answers or shares a single number from the research, so readers have no reason to click.",
+    "text": "I built https://t.co/OyorZXuAPL to find a quantifiable answer.\n\nI don't know if I found one, but I had a lot of fun exploring the idea, researching the numbers, and trying to make sense of it all. \n\nHappy to discuss and improve it. https://t.co/KRvUSonwE4"
+  },
+  {
+    "handle": "DmytroKrasun",
+    "url": "https://x.com/DmytroKrasun/status/2117969395720896769",
+    "views": 3238,
+    "ratio": 1.0,
+    "label": "MID",
+    "earned_weight": 0.71,
+    "forfeited": 42.12,
+    "earned": [
+      "Like"
+    ],
+    "biggest_miss": "It never says what system this is or what change caused the drop, so strangers get numbers with nothing to learn, ask about, or share.",
+    "text": "Shipped a few improvements over the past 2 weeks:\n\n* Error rate: 1.23% \u2192 0.04%\n* Errors per day: 2,638 \u2192 91\n* Cluster issues: 641 \u2192 0 a day\n* Cost per request: \u22129%\n\nhttps://t.co/4LgYAUnxpv https://t.co/5VM3qf6i9B"
+  },
+  {
+    "handle": "DmytroKrasun",
+    "url": "https://x.com/DmytroKrasun/status/2119183693730263292",
+    "views": 3131,
+    "ratio": 0.97,
+    "label": "MID",
+    "earned_weight": 10.71,
+    "forfeited": 32.12,
+    "earned": [
+      "Reply",
+      "Quote post",
+      "Like"
+    ],
+    "biggest_miss": "It offers no concrete story, example, or evidence behind the claim, leaving nothing specific for a reader to send to someone.",
+    "text": "If you are arrogant, you are either not ambitious enough or not shipping enough."
+  },
+  {
+    "handle": "DmytroKrasun",
+    "url": "https://x.com/DmytroKrasun/status/2119419492409200741",
+    "views": 1179,
+    "ratio": 0.36,
+    "label": "DUD",
+    "earned_weight": 0.71,
+    "forfeited": 42.12,
+    "earned": [
+      "Like"
+    ],
+    "biggest_miss": "The museum recommendation, the only actionable part, is buried in the last paragraph with no specifics and no question to readers.",
+    "text": "There was a campsite we liked. Right on the beach. You wake up in the morning and jump straight into the sea.\n\nBut then the Israel Nature and Parks Authority prohibited staying overnight at the site. You can still visit the beach, but not sleep.\n\nOf course, we were disappointed. Until I learned more.\n\nTurns out sea turtles nest on that beach, and people get in their way. Light and noise. Females come ashore at night to lay their eggs, and if someone disturbs them, they go back to the sea without nesting. About two months later, the hatchlings dig out at night and crawl toward the brightest horizon, which is normally the sea. A campfire or a flashlight can lead them inland instead.\n\nThat is likely one of the reasons the campsite was closed.\n\nSpent half a day learning about cases like that with my kids at the Museum of Natural History at Tel Aviv University. Lots of interactive exhibits we could play with to learn how humans and nature interact and how we can do better. Talked a lot about it all the way home."
+  },
+  {
+    "handle": "DmytroKrasun",
+    "url": "https://x.com/DmytroKrasun/status/2119825049490169906",
+    "views": 1413,
+    "ratio": 0.44,
+    "label": "DUD",
+    "earned_weight": 10.71,
+    "forfeited": 32.12,
+    "earned": [
+      "Reply",
+      "Quote post",
+      "Like"
+    ],
+    "biggest_miss": "It claims primitives can be combined to build almost anything but never shows a single concrete combination or example.",
+    "text": "A better name for AI agents is \"intelligence primitives\".\n\nWhat we call agents have no agency. \n\nBut when I think of them as intelligence primitives, I see how we can combine them to build almost anything. \n\nI couldn't name it, but that was the abstraction I had been looking for."
+  },
+  {
+    "handle": "DmytroKrasun",
+    "url": "https://x.com/DmytroKrasun/status/2119841736679686222",
+    "views": 111640,
+    "ratio": 34.48,
+    "label": "WIN",
+    "earned_weight": 28.83,
+    "forfeited": 14.0,
+    "earned": [
+      "Share via copy link",
+      "Share via DM",
+      "Share",
+      "Repost",
+      "Like"
+    ],
+    "biggest_miss": "No question, stance, or promise of more (e.g., 'which city next?') to earn replies, quotes, or follows.",
+    "text": "Welcome to an isometric Tel Aviv-Yafo \ud83e\udef6\n\n\u2192 36,604 buildings from open municipal data, built into a 3D model and painted with GPT Image 2.6 in one style. \n\u2192 230,452 trees where the city tree map puts them.\n\u2192 2 GB of paintings, but the map opens in under a second (~400 KB). \n\u2192 218 prompts in Claude Code with Opus 5.5.\n\nIt is the kind of project I always wanted to build but wouldn't even have tried without agents.\n\nhttps://t.co/AikDBubiVm"
+  },
+  {
+    "handle": "elie2222",
+    "url": "https://x.com/elie2222/status/2117310921752322098",
+    "views": 6788,
+    "ratio": 5.67,
+    "label": "WIN",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "The post promises an answer but gives none, not even one revenue model or number, so readers have no reason to click or share.",
+    "text": "How open source projects make money\n\nI get asked this daily, so I decided to do a video on it. https://t.co/ajMAfBgFox"
+  },
+  {
+    "handle": "elie2222",
+    "url": "https://x.com/elie2222/status/2117956446948388888",
+    "views": 1004,
+    "ratio": 0.84,
+    "label": "MID",
+    "earned_weight": 5.0,
+    "forfeited": 37.83,
+    "earned": [
+      "Reply"
+    ],
+    "biggest_miss": "It never promises to share the actual click results, so there is no finding to share and no reason to follow.",
+    "text": "Placed ads for Rakazo on my fantasy soccer website\n\nWhich will get more clicks? (Each page load shows a different ad) https://t.co/mcvDdnjcuT"
+  },
+  {
+    "handle": "elie2222",
+    "url": "https://x.com/elie2222/status/2118007272236298664",
+    "views": 7856,
+    "ratio": 6.56,
+    "label": "WIN",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "The hook promises proof that open source makes money, then gives no revenue, user or conversion number to back it.",
+    "text": "Proving that open source can make money.\n\nhttps://t.co/eMW1woSQUq is the best open-source Grok Bot alternative.\n\nIt's free to self-host and customise.\nBring any LLM and any sandbox provider.\n\nSo how does it make money?\n\nBy offering cloud hosting starting at $15/mo. Bring your own API key or subscription.\n\nIt's live on the App Store, Play Store, Mac, Windows and web: https://t.co/ToWG5iFPcI\n\nLooking to join a thriving open-source community?\nJoin us on Discord: https://t.co/1TbknOLP92\n\nAnd follow on X: @rakazobot"
+  },
+  {
+    "handle": "elie2222",
+    "url": "https://x.com/elie2222/status/2118046368094687232",
+    "views": 1198,
+    "ratio": 1.0,
+    "label": "MID",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "The post never says what the project is or does, so a stranger has no reason to care about its numbers or click the link.",
+    "text": "7000 stars\n\n200 contributors\n\n30 watching\n\n2.0 license\n\n0.7.0 version\n\nWhat are the chances? Just need to change 1.2k stars to 2k for a clean sweep\n\nFork it here: https://t.co/iR5zwHJdVx https://t.co/64ojpcCxbq"
+  },
+  {
+    "handle": "elie2222",
+    "url": "https://x.com/elie2222/status/2118370716873626081",
+    "views": 920,
+    "ratio": 0.77,
+    "label": "MID",
+    "earned_weight": 5.0,
+    "forfeited": 37.83,
+    "earned": [
+      "Reply"
+    ],
+    "biggest_miss": "It offers strangers nothing but a personal question, missing price gap, usage data, or a takeaway others could use.",
+    "text": "Should I buy a 256gb iPhone duo today or wait it out a few weeks for 512gb?\n\nCurrent phone was at 254gb used but half is WhatsApp which I just cleared out a tonne of https://t.co/bWJRpqeej9"
+  },
+  {
+    "handle": "elie2222",
+    "url": "https://x.com/elie2222/status/2118379488320835990",
+    "views": 700,
+    "ratio": 0.58,
+    "label": "DUD",
+    "earned_weight": 5.71,
+    "forfeited": 37.12,
+    "earned": [
+      "Reply",
+      "Like"
+    ],
+    "biggest_miss": "It never names the projects or states a view on their relicensing, so there is no hook beyond the image.",
+    "text": "Just found some og open source merch in my cupboard \n\nBoth closed source now \ud83d\ude2d https://t.co/QexEhHCMtr"
+  },
+  {
+    "handle": "elie2222",
+    "url": "https://x.com/elie2222/status/2119424456963563934",
+    "views": 4293,
+    "ratio": 3.58,
+    "label": "WIN",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It sets up 'Why?' then answers with an unsupported 'best alternative' claim instead of explaining what the bot does or how they reached $1k MRR.",
+    "text": "Just broke $1k MRR with @rakazobot!\n\nWhy?\n\nIt's the best open-source Grok Bot alternative.\n\nTry it at https://t.co/JQG1QKyLig. Excited for what's to come. We're just getting started! https://t.co/IG8y0DnYlx"
+  },
+  {
+    "handle": "SaidAitmbarek",
+    "url": "https://x.com/SaidAitmbarek/status/2116579579359814030",
+    "views": 754,
+    "ratio": 0.43,
+    "label": "DUD",
+    "earned_weight": 10.71,
+    "forfeited": 32.12,
+    "earned": [
+      "Reply",
+      "Quote post",
+      "Like"
+    ],
+    "biggest_miss": "The headline numbers and the 0.82 score are invented, with no source, example or mechanism to make the claim worth sharing.",
+    "text": "2027 funnel:  \n\nmy agent finds your product, scores it 0.82\n\nbuys it. never sees your landing\n\n100x the volume, 1/100th the cost  \n\nbuild for this"
+  },
+  {
+    "handle": "SaidAitmbarek",
+    "url": "https://x.com/SaidAitmbarek/status/2117304995792224662",
+    "views": 1758,
+    "ratio": 1.0,
+    "label": "MID",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It never says what the product is or why people bought pre-launch, so readers get no takeaway.",
+    "text": "2 days, 4 more sales at $149\n\nmost went for the upgraded plan\n\nstill haven\u2019t launched, saas isn\u2019t dead https://t.co/2iNQSF8GNp"
+  },
+  {
+    "handle": "SaidAitmbarek",
+    "url": "https://x.com/SaidAitmbarek/status/2117640540670030088",
+    "views": 697,
+    "ratio": 0.4,
+    "label": "DUD",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It names an intriguing idea, the 0-person company, but gives no evidence, example, or number to make readers care.",
+    "text": "the 0-person company\u2019s what\u2019s next, looks like it."
+  },
+  {
+    "handle": "SaidAitmbarek",
+    "url": "https://x.com/SaidAitmbarek/status/2118037248038076481",
+    "views": 6323,
+    "ratio": 3.6,
+    "label": "WIN",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It never says who is offering the $350k credits, who qualifies, or how to apply, so readers have nothing to share or act on.",
+    "text": "$350k in credits for the next generation of builders\n\ncount me in !! https://t.co/WEKDxgCV7W"
+  },
+  {
+    "handle": "SaidAitmbarek",
+    "url": "https://x.com/SaidAitmbarek/status/2118092248143331629",
+    "views": 694,
+    "ratio": 0.39,
+    "label": "DUD",
+    "earned_weight": 10.71,
+    "forfeited": 32.12,
+    "earned": [
+      "Reply",
+      "Quote post",
+      "Like"
+    ],
+    "biggest_miss": "'Turn attention into trust' gives no concrete method or evidence, leaving nothing specific to copy or send.",
+    "text": "\"distribution is the edge\" is right, but only for about 2 years\n\ntoday ai builds and humans distribute, but soon everyone will share the same gtm agents and skills\n\nmeaning cold outbound get ignored, content gets buried, and paid ads turn into a bidding war\n\nwhat remains is people who already trust you, and who delegate that trust to their agents (thinking a2a)\n\nmy advice: spend the next 2 years turning attention into trust"
+  },
+  {
+    "handle": "SaidAitmbarek",
+    "url": "https://x.com/SaidAitmbarek/status/2119032640070205690",
+    "views": 9507,
+    "ratio": 5.41,
+    "label": "WIN",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "The post never says what the product is or what it does, so a stranger has no reason to care about the 5000 users.",
+    "text": "now reaching 5000+ weekly active users, and growing\n\n6 months working like crazy\n\nhardest thing i\u2019ve built, so glad i never quit https://t.co/vLVZj3MxIq"
+  },
+  {
+    "handle": "SaidAitmbarek",
+    "url": "https://x.com/SaidAitmbarek/status/2119144622437830993",
+    "views": 3298,
+    "ratio": 1.88,
+    "label": "MID",
+    "earned_weight": 10.71,
+    "forfeited": 32.12,
+    "earned": [
+      "Reply",
+      "Quote post",
+      "Like"
+    ],
+    "biggest_miss": "The 8000-user claim is invented math with no real result, example, or how-to backing it.",
+    "text": "spend 2h building an MCP for your product this weekend\n\nship it as a ChatGPT + Claude plugins\n\n0.001% of ChatGPT users = 8000 new users.\n\nlowest hanging fruit in distribution rn"
+  },
+  {
+    "handle": "hii_mohit",
+    "url": "https://x.com/hii_mohit/status/2117687037130371511",
+    "views": 2752,
+    "ratio": 0.92,
+    "label": "MID",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It never names the directory, gives a traffic number, or says what the link is, so strangers have nothing to act on.",
+    "text": "my Mac apps directory is getting crazy traffic\n\nso I need to do this: https://t.co/lXkNhfxiGP"
+  },
+  {
+    "handle": "hii_mohit",
+    "url": "https://x.com/hii_mohit/status/2117903563062198343",
+    "views": 7693,
+    "ratio": 2.58,
+    "label": "WIN",
+    "earned_weight": 10.71,
+    "forfeited": 32.12,
+    "earned": [
+      "Reply",
+      "Quote post",
+      "Like"
+    ],
+    "biggest_miss": "It teases that Medium drives 70% of sales but never says how, so there's nothing actionable to share.",
+    "text": "I feel bad for people cloning my app after seeing my sales screenshots on X\n\nthey're copying the product, thinking X is the secret to my sales\n\nmeanwhile, 70% of my paying customers come from Medium https://t.co/jGtBg4gtBa"
+  },
+  {
+    "handle": "hii_mohit",
+    "url": "https://x.com/hii_mohit/status/2118286650396856738",
+    "views": 2983,
+    "ratio": 1.0,
+    "label": "MID",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It never says what the app does or what problem it solves, so 'unique idea' gives readers nothing to engage with.",
+    "text": "started working on a new Mac app\n\nit's a very different and unique idea \n\nlets see how it goes"
+  },
+  {
+    "handle": "hii_mohit",
+    "url": "https://x.com/hii_mohit/status/2118617771055644863",
+    "views": 33743,
+    "ratio": 11.31,
+    "label": "WIN",
+    "earned_weight": 9.71,
+    "forfeited": 33.12,
+    "earned": [
+      "Reply",
+      "Follow author",
+      "Like"
+    ],
+    "biggest_miss": "The apps are never named or described and no how-to is given, leaving only opaque links nobody can share or learn from.",
+    "text": "I built 3 Mac apps in the last 2 months\n\n- https://t.co/VpRIs8ypHH ( acquired )\n- https://t.co/2nh4KV8ri7 ( in talks to acquire )\n- https://t.co/GGL3ww4Oc0 ( made $3.7k in 30 days )\n\none more app is coming soon :) https://t.co/4b8BsyFYq6"
+  },
+  {
+    "handle": "hii_mohit",
+    "url": "https://x.com/hii_mohit/status/2118673960669991315",
+    "views": 2089,
+    "ratio": 0.7,
+    "label": "MID",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It never names the tool or shows what one click actually does, so readers have nothing concrete to act on.",
+    "text": "The fastest way to get around your Mac in a single click\n\n\u2192 https://t.co/GGL3ww4Oc0 https://t.co/4RD3fG0UGF"
+  },
+  {
+    "handle": "hii_mohit",
+    "url": "https://x.com/hii_mohit/status/2119365310671151309",
+    "views": 1950,
+    "ratio": 0.65,
+    "label": "DUD",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It withholds every concrete detail\u2014no traffic, revenue, or specific SEO tactics\u2014so strangers get a link and a promise instead of a result.",
+    "text": "first 30 days of https://t.co/GGL3ww4gms\n\ndid so many things on the SEO side, will see results in the next 30 days https://t.co/Pyp3vBx9a5"
+  },
+  {
+    "handle": "hii_mohit",
+    "url": "https://x.com/hii_mohit/status/2119724660803915937",
+    "views": 15950,
+    "ratio": 5.35,
+    "label": "WIN",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It names no app and no real result, so the reader gets zero value without clicking a suspicious link.",
+    "text": "If you want to make good money on the internet\n\njust build a 10x better version of any of these 50 apps\n\ni did the same and got very good results https://t.co/k5PuOiJypi"
+  },
+  {
+    "handle": "brian_millot",
+    "url": "https://x.com/brian_millot/status/2118324302034436100",
+    "views": 3362,
+    "ratio": 3.67,
+    "label": "WIN",
+    "earned_weight": 0.71,
+    "forfeited": 42.12,
+    "earned": [
+      "Like"
+    ],
+    "biggest_miss": "It claims a dead-to-daily-sales turnaround but gives no numbers, project name, or tactics, so readers have nothing concrete to share.",
+    "text": "This project was dead for months.\n\nNow it gets sales almost every day.\n\nAll from SEO.\n\nSEO feels useless for months.\n\nThen suddenly it doesn\u2019t.\n\nEvery page you publish is a small bet that keeps paying you.\n\nDon\u2019t quit too early. It compounds. https://t.co/hA7WoyBVSa"
+  },
+  {
+    "handle": "brian_millot",
+    "url": "https://x.com/brian_millot/status/2118365462014669109",
+    "views": 917,
+    "ratio": 1.0,
+    "label": "MID",
+    "earned_weight": 9.71,
+    "forfeited": 33.12,
+    "earned": [
+      "Reply",
+      "Follow author",
+      "Like"
+    ],
+    "biggest_miss": "There is no concrete number, lesson or result a reader would copy and send, forfeiting the heaviest-weighted action.",
+    "text": "Hey X \ud83d\udc4b I'm Brian.\n\nFrench dev, 35, 12 years of code. I used to run a team of 20 in Manila. Now I run 4 SaaS on my own from France.\n\nBlipix, faceless videos that post themselves\n\nLaunchIt, a launch directory for founders\n\nBeatMotion, AI music videos\n\nDirPilot, directory submissions done for you\n\nSome days they make $500. Some days $14.99. I share both here.\n\nLooking to connect with people building SaaS, apps, or anything real.\n\nDrop what you're working on \ud83d\udc47"
+  },
+  {
+    "handle": "brian_millot",
+    "url": "https://x.com/brian_millot/status/2118459236300804520",
+    "views": 919,
+    "ratio": 1.0,
+    "label": "MID",
+    "earned_weight": 5.71,
+    "forfeited": 37.12,
+    "earned": [
+      "Reply",
+      "Like"
+    ],
+    "biggest_miss": "It never explains why LaunchIt earns while the other startups earn $0, so readers get a brag instead of a lesson.",
+    "text": "Today: $98.98 \ud83e\udd11\n\nAll from LaunchIt. \ud83d\udc4f\n\nMy other startups: $0\n\n2 premium launches\n\n1 boost package (premium + featured for a month)\n\nSome days one product carries the whole team.\n\nThat's why I don't build just one. https://t.co/bXavSwRKtt"
+  },
+  {
+    "handle": "brian_millot",
+    "url": "https://x.com/brian_millot/status/2118738409636470872",
+    "views": 199,
+    "ratio": 0.22,
+    "label": "DUD",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "The post never explains what LaunchIt does or who it's for, so strangers can't see why the discount matters.",
+    "text": "Black Friday at LaunchIt \ud83d\udda4\n\nUp to 50% off everything, no code needed:\n\u2192 Premium Launch $17.49 (was $24.99)\n\u2192 Moonshot, 100+ directories $99.50 (was $199)\n\nEnds Nov 30. https://t.co/bVeuo9jZkv https://t.co/nBoSApJDVH"
+  },
+  {
+    "handle": "brian_millot",
+    "url": "https://x.com/brian_millot/status/2118831451789509115",
+    "views": 421,
+    "ratio": 0.46,
+    "label": "DUD",
+    "earned_weight": 0.71,
+    "forfeited": 42.12,
+    "earned": [
+      "Like"
+    ],
+    "biggest_miss": "It never says what the products are or what the early 30%-off promo taught, so strangers get no usable takeaway.",
+    "text": "Today: ~$56 in sales \ud83d\udcb8\n\nLaunchIt: first sale from the Black Friday early promo (30% off)\n\nBlipix: new subscriber from the UK \ud83c\uddec\ud83c\udde7\n\nSmall numbers, but every sale is proof that someone wants what you built.\n\nBlack Friday hasn't even started yet.\n\nKeep shipping https://t.co/CQWoj0ekuA"
+  },
+  {
+    "handle": "brian_millot",
+    "url": "https://x.com/brian_millot/status/2119111297094791342",
+    "views": 369,
+    "ratio": 0.4,
+    "label": "DUD",
+    "earned_weight": 0,
+    "forfeited": 42.83,
+    "earned": [],
+    "biggest_miss": "It never says what the site is, who it's for, or proof that the backlink works, so it reads as an anonymous link-selling ad.",
+    "text": "Ads stop the day the budget runs out.\n\nA DR 71 backlink doesn't.\n\nUp to 50% off right now, and the price goes back up when the sale ends.\n\nFive minutes and your product is findable forever \ud83d\ude80\n\nhttps://t.co/bVeuo9jZkv"
+  },
+  {
+    "handle": "brian_millot",
+    "url": "https://x.com/brian_millot/status/2119494579099471894",
+    "views": 1047,
+    "ratio": 1.14,
+    "label": "MID",
+    "earned_weight": 0.71,
+    "forfeited": 42.12,
+    "earned": [
+      "Like"
+    ],
+    "biggest_miss": "It claims SEO alone drove a $199 order but never says which pages, keywords, or timeline made that happen.",
+    "text": "Woooh, today $238 \ud83e\udd73\ud83e\udd11\n\nDirPilot just got a $199 directory submission order\n\nI did zero marketing on that site. No ads, no launch, no posts. Just SEO quietly doing its job\n\nThen Blipix lands a new $39 subscription\n\nThis is why you keep building\n\nWhat you ship today can pay you months from now\n\nPlant the seeds. Stay patient."
+  }
+]

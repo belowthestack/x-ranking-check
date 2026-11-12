@@ -1,0 +1,316 @@
+"account handle","account follower count","post URL","date posted","post text","views","likes","replies","reposts","bookmarks"
+"heyandras","26229","https://x.com/heyandras/status/2118317064033300708","2026-11-05 07:18 ET","Forgejo integration coming next https://t.co/PE6ja6zlOH","2277","36","2","0","0"
+"heyandras","26229","https://x.com/heyandras/status/2118365932707803583","2026-11-05 10:32 ET","Coolify 4.7 is almost ready btw. https://t.co/pz7eaIlXzq","4768","161","16","2","11"
+"heyandras","26229","https://x.com/heyandras/status/2118621803857813687","2026-11-06 03:29 ET","We will have vulnerability scanner integrated in Coolify 4.7. 
+
+While I was testing it (as its added by @AdityaTripathiD) I realized how broken and outdated images really are. https://t.co/kiIFuCjBRl","6257","202","14","2","15"
+"heyandras","26229","https://x.com/heyandras/status/2118646010306007136","2026-11-06 05:05 ET","I soon ready with the new Orbit version.
+
+But I put together a fun facts page about https://t.co/UzkfzV4bLI because it was scary to buy an expensive domain without knowing if its worth it or anything.
+
+It was a hard decision, but sometimes I have to be brave and yolo.
+
+But I did for the people to save them money, so its worth it. 🫡
+
+You support my work, I save you money or time.
+It is simple.","6033","138","11","5","25"
+"heyandras","26229","https://x.com/heyandras/status/2118716037344403707","2026-11-06 09:44 ET","friday releases/tag party
+
+coolify 4.7.0 (will be released on monday, as I want a calm weekend, sry)
+
+- container image vulnerability scanning that runs on your own server
+- github deployments sync
+- sftp, ftps and webdav backup storages
+- ssh host key pinning, ed25519 keys and one-click key rotation
+- forgejo and codeberg support
+- valkey as the new default for redis databases
+- more than one smtp server, smtp templates and resend in one email provider list
+- cancel older queued deployments when a newer push arrives
+- automatic update notifications
+- cleanup for unused traefik certificates
+- s3 skip tls verification for self-signed endpoints
+- scheduled tasks without a shell (for distroless images)
+- list view for new resources and a ui scale option
+- orbit service template (oh yeah)
+- many fixes
+
+orbit 0.2.0 (cloud upgraded!)
+
+- incoming chat webhooks with block kit and buttons
+- import your projects from asana, linear and trello
+- a public rest api with scoped tokens
+- api tokens and mcp grants that can cover all projects
+- new mcp tools for sub-issues and chat search
+- oauth consent with per-resource access
+- emoji shortcodes in markdown
+- static linux binaries for each release
+- many fixes
+
+jean 1.0.14
+
+- sub-sessions grouped under their lead session, with results sent back
+- send prompts in the background with cmd+enter
+- remote mcp endpoints with token auth
+- secret requests through jean mcp, scoped to a project or agent
+- jean review runs in its own review session
+- search sessions, messages and settings from the command palette
+- live activity and agent-written status in agent chats
+- configurable shortcuts for permission approvals
+- opt-in ssh agent forwarding
+- agent browser on by default, with auto-updates
+- swipe actions and compact rows on mobile, plus an offline page
+- instant session open with preload on hover
+- many fixes","3959","122","17","4","8"
+"heyandras","26229","https://x.com/heyandras/status/2118749850141438417","2026-11-06 11:58 ET","it looks like i will really have a slow weekend. 😅 https://t.co/YBPAV6rOpy","2247","24","3","0","0"
+"heyandras","26229","https://x.com/heyandras/status/2119726356355334639","2026-11-09 04:38 ET","Guest invitations to private channels coming to Orbit.
+
+Invite partners, collaborators, anyone. https://t.co/pmxOz04Xfo","2278","53","2","0","2"
+"DmytroKrasun","32683","https://x.com/DmytroKrasun/status/2116851626283860062","2026-11-01 06:15 ET","Engineering with agents still breaks my intuition.
+
+I often feel like a shepherd driving sheep in the direction I need.
+
+But the sheep are smarter than me. Why do I need to be the shepherd at all?","5992","66","37","2","7"
+"DmytroKrasun","32683","https://x.com/DmytroKrasun/status/2117238346418422029","2026-11-02 07:52 ET","I built https://t.co/OyorZXuAPL to find a quantifiable answer.
+
+I don't know if I found one, but I had a lot of fun exploring the idea, researching the numbers, and trying to make sense of it all. 
+
+Happy to discuss and improve it. https://t.co/KRvUSonwE4","16518","60","22","3","13"
+"DmytroKrasun","32683","https://x.com/DmytroKrasun/status/2117969395720896769","2026-11-04 08:17 ET","Shipped a few improvements over the past 2 weeks:
+
+* Error rate: 1.23% → 0.04%
+* Errors per day: 2,638 → 91
+* Cluster issues: 641 → 0 a day
+* Cost per request: −9%
+
+https://t.co/4LgYAUnxpv https://t.co/5VM3qf6i9B","3238","56","9","3","2"
+"DmytroKrasun","32683","https://x.com/DmytroKrasun/status/2119183693730263292","2026-11-07 16:42 ET","If you are arrogant, you are either not ambitious enough or not shipping enough.","3131","44","6","1","5"
+"DmytroKrasun","32683","https://x.com/DmytroKrasun/status/2119419492409200741","2026-11-08 08:19 ET","There was a campsite we liked. Right on the beach. You wake up in the morning and jump straight into the sea.
+
+But then the Israel Nature and Parks Authority prohibited staying overnight at the site. You can still visit the beach, but not sleep.
+
+Of course, we were disappointed. Until I learned more.
+
+Turns out sea turtles nest on that beach, and people get in their way. Light and noise. Females come ashore at night to lay their eggs, and if someone disturbs them, they go back to the sea without nesting. About two months later, the hatchlings dig out at night and crawl toward the brightest horizon, which is normally the sea. A campfire or a flashlight can lead them inland instead.
+
+That is likely one of the reasons the campsite was closed.
+
+Spent half a day learning about cases like that with my kids at the Museum of Natural History at Tel Aviv University. Lots of interactive exhibits we could play with to learn how humans and nature interact and how we can do better. Talked a lot about it all the way home.","1179","18","1","0","0"
+"DmytroKrasun","32683","https://x.com/DmytroKrasun/status/2119825049490169906","2026-11-09 11:10 ET","A better name for AI agents is ""intelligence primitives"".
+
+What we call agents have no agency. 
+
+But when I think of them as intelligence primitives, I see how we can combine them to build almost anything. 
+
+I couldn't name it, but that was the abstraction I had been looking for.","1413","30","4","3","0"
+"DmytroKrasun","32683","https://x.com/DmytroKrasun/status/2119841736679686222","2026-11-09 12:17 ET","Welcome to an isometric Tel Aviv-Yafo 🫶
+
+→ 36,604 buildings from open municipal data, built into a 3D model and painted with GPT Image 2.6 in one style. 
+→ 230,452 trees where the city tree map puts them.
+→ 2 GB of paintings, but the map opens in under a second (~400 KB). 
+→ 218 prompts in Claude Code with Opus 5.5.
+
+It is the kind of project I always wanted to build but wouldn't even have tried without agents.
+
+https://t.co/AikDBubiVm","111640","1310","124","61","748"
+"elie2222","16972","https://x.com/elie2222/status/2117310921752322098","2026-11-02 12:40 ET","How open source projects make money
+
+I get asked this daily, so I decided to do a video on it. https://t.co/ajMAfBgFox","6788","107","17","7","127"
+"elie2222","16972","https://x.com/elie2222/status/2117956446948388888","2026-11-04 07:25 ET","Placed ads for Rakazo on my fantasy soccer website
+
+Which will get more clicks? (Each page load shows a different ad) https://t.co/mcvDdnjcuT","1004","5","5","0","1"
+"elie2222","16972","https://x.com/elie2222/status/2118007272236298664","2026-11-04 10:47 ET","Proving that open source can make money.
+
+https://t.co/eMW1woSQUq is the best open-source Grok Bot alternative.
+
+It's free to self-host and customise.
+Bring any LLM and any sandbox provider.
+
+So how does it make money?
+
+By offering cloud hosting starting at $15/mo. Bring your own API key or subscription.
+
+It's live on the App Store, Play Store, Mac, Windows and web: https://t.co/ToWG5iFPcI
+
+Looking to join a thriving open-source community?
+Join us on Discord: https://t.co/1TbknOLP92
+
+And follow on X: @rakazobot","7856","84","25","8","79"
+"elie2222","16972","https://x.com/elie2222/status/2118046368094687232","2026-11-04 13:23 ET","7000 stars
+
+200 contributors
+
+30 watching
+
+2.0 license
+
+0.7.0 version
+
+What are the chances? Just need to change 1.2k stars to 2k for a clean sweep
+
+Fork it here: https://t.co/iR5zwHJdVx https://t.co/64ojpcCxbq","1198","12","2","2","2"
+"elie2222","16972","https://x.com/elie2222/status/2118370716873626081","2026-11-05 10:51 ET","Should I buy a 256gb iPhone duo today or wait it out a few weeks for 512gb?
+
+Current phone was at 254gb used but half is WhatsApp which I just cleared out a tonne of https://t.co/bWJRpqeej9","920","0","6","0","0"
+"elie2222","16972","https://x.com/elie2222/status/2118379488320835990","2026-11-05 11:26 ET","Just found some og open source merch in my cupboard 
+
+Both closed source now 😭 https://t.co/QexEhHCMtr","700","7","2","0","0"
+"elie2222","16972","https://x.com/elie2222/status/2119424456963563934","2026-11-08 08:39 ET","Just broke $1k MRR with @rakazobot!
+
+Why?
+
+It's the best open-source Grok Bot alternative.
+
+Try it at https://t.co/JQG1QKyLig. Excited for what's to come. We're just getting started! https://t.co/IG8y0DnYlx","4293","82","26","2","8"
+"SaidAitmbarek","14963","https://x.com/SaidAitmbarek/status/2116579579359814030","2026-10-31 13:14 ET","2027 funnel:  
+
+my agent finds your product, scores it 0.82
+
+buys it. never sees your landing
+
+100x the volume, 1/100th the cost  
+
+build for this","754","17","2","3","4"
+"SaidAitmbarek","14963","https://x.com/SaidAitmbarek/status/2117304995792224662","2026-11-02 12:17 ET","2 days, 4 more sales at $149
+
+most went for the upgraded plan
+
+still haven’t launched, saas isn’t dead https://t.co/2iNQSF8GNp","1758","46","18","1","2"
+"SaidAitmbarek","14963","https://x.com/SaidAitmbarek/status/2117640540670030088","2026-11-03 10:30 ET","the 0-person company’s what’s next, looks like it.","697","14","2","1","1"
+"SaidAitmbarek","14963","https://x.com/SaidAitmbarek/status/2118037248038076481","2026-11-04 12:46 ET","$350k in credits for the next generation of builders
+
+count me in !! https://t.co/WEKDxgCV7W","6323","73","13","3","50"
+"SaidAitmbarek","14963","https://x.com/SaidAitmbarek/status/2118092248143331629","2026-11-04 16:25 ET","""distribution is the edge"" is right, but only for about 2 years
+
+today ai builds and humans distribute, but soon everyone will share the same gtm agents and skills
+
+meaning cold outbound get ignored, content gets buried, and paid ads turn into a bidding war
+
+what remains is people who already trust you, and who delegate that trust to their agents (thinking a2a)
+
+my advice: spend the next 2 years turning attention into trust","694","17","8","1","6"
+"SaidAitmbarek","14963","https://x.com/SaidAitmbarek/status/2119032640070205690","2026-11-07 06:42 ET","now reaching 5000+ weekly active users, and growing
+
+6 months working like crazy
+
+hardest thing i’ve built, so glad i never quit https://t.co/vLVZj3MxIq","9507","159","50","4","48"
+"SaidAitmbarek","14963","https://x.com/SaidAitmbarek/status/2119144622437830993","2026-11-07 14:07 ET","spend 2h building an MCP for your product this weekend
+
+ship it as a ChatGPT + Claude plugins
+
+0.001% of ChatGPT users = 8000 new users.
+
+lowest hanging fruit in distribution rn","3298","53","12","1","36"
+"hii_mohit","9590","https://x.com/hii_mohit/status/2117687037130371511","2026-11-03 13:35 ET","my Mac apps directory is getting crazy traffic
+
+so I need to do this: https://t.co/lXkNhfxiGP","2752","51","18","0","5"
+"hii_mohit","9590","https://x.com/hii_mohit/status/2117903563062198343","2026-11-04 03:55 ET","I feel bad for people cloning my app after seeing my sales screenshots on X
+
+they're copying the product, thinking X is the secret to my sales
+
+meanwhile, 70% of my paying customers come from Medium https://t.co/jGtBg4gtBa","7693","192","59","0","52"
+"hii_mohit","9590","https://x.com/hii_mohit/status/2118286650396856738","2026-11-05 05:17 ET","started working on a new Mac app
+
+it's a very different and unique idea 
+
+lets see how it goes","2983","75","23","1","1"
+"hii_mohit","9590","https://x.com/hii_mohit/status/2118617771055644863","2026-11-06 03:13 ET","I built 3 Mac apps in the last 2 months
+
+- https://t.co/VpRIs8ypHH ( acquired )
+- https://t.co/2nh4KV8ri7 ( in talks to acquire )
+- https://t.co/GGL3ww4Oc0 ( made $3.7k in 30 days )
+
+one more app is coming soon :) https://t.co/4b8BsyFYq6","33743","440","74","3","351"
+"hii_mohit","9590","https://x.com/hii_mohit/status/2118673960669991315","2026-11-06 06:56 ET","The fastest way to get around your Mac in a single click
+
+→ https://t.co/GGL3ww4Oc0 https://t.co/4RD3fG0UGF","2089","40","4","0","9"
+"hii_mohit","9590","https://x.com/hii_mohit/status/2119365310671151309","2026-11-08 04:44 ET","first 30 days of https://t.co/GGL3ww4gms
+
+did so many things on the SEO side, will see results in the next 30 days https://t.co/Pyp3vBx9a5","1950","43","8","0","9"
+"hii_mohit","9590","https://x.com/hii_mohit/status/2119724660803915937","2026-11-09 04:31 ET","If you want to make good money on the internet
+
+just build a 10x better version of any of these 50 apps
+
+i did the same and got very good results https://t.co/k5PuOiJypi","15950","303","28","11","582"
+"brian_millot","2433","https://x.com/brian_millot/status/2118324302034436100","2026-11-05 07:47 ET","This project was dead for months.
+
+Now it gets sales almost every day.
+
+All from SEO.
+
+SEO feels useless for months.
+
+Then suddenly it doesn’t.
+
+Every page you publish is a small bet that keeps paying you.
+
+Don’t quit too early. It compounds. https://t.co/hA7WoyBVSa","3362","87","43","2","8"
+"brian_millot","2433","https://x.com/brian_millot/status/2118365462014669109","2026-11-05 10:30 ET","Hey X 👋 I'm Brian.
+
+French dev, 35, 12 years of code. I used to run a team of 20 in Manila. Now I run 4 SaaS on my own from France.
+
+Blipix, faceless videos that post themselves
+
+LaunchIt, a launch directory for founders
+
+BeatMotion, AI music videos
+
+DirPilot, directory submissions done for you
+
+Some days they make $500. Some days $14.99. I share both here.
+
+Looking to connect with people building SaaS, apps, or anything real.
+
+Drop what you're working on 👇","917","40","38","0","0"
+"brian_millot","2433","https://x.com/brian_millot/status/2118459236300804520","2026-11-05 16:43 ET","Today: $98.98 🤑
+
+All from LaunchIt. 👏
+
+My other startups: $0
+
+2 premium launches
+
+1 boost package (premium + featured for a month)
+
+Some days one product carries the whole team.
+
+That's why I don't build just one. https://t.co/bXavSwRKtt","919","27","20","0","3"
+"brian_millot","2433","https://x.com/brian_millot/status/2118738409636470872","2026-11-06 11:12 ET","Black Friday at LaunchIt 🖤
+
+Up to 50% off everything, no code needed:
+→ Premium Launch $17.49 (was $24.99)
+→ Moonshot, 100+ directories $99.50 (was $199)
+
+Ends Nov 30. https://t.co/bVeuo9jZkv https://t.co/nBoSApJDVH","199","3","0","0","0"
+"brian_millot","2433","https://x.com/brian_millot/status/2118831451789509115","2026-11-06 17:22 ET","Today: ~$56 in sales 💸
+
+LaunchIt: first sale from the Black Friday early promo (30% off)
+
+Blipix: new subscriber from the UK 🇬🇧
+
+Small numbers, but every sale is proof that someone wants what you built.
+
+Black Friday hasn't even started yet.
+
+Keep shipping https://t.co/CQWoj0ekuA","421","12","13","0","0"
+"brian_millot","2433","https://x.com/brian_millot/status/2119111297094791342","2026-11-07 11:54 ET","Ads stop the day the budget runs out.
+
+A DR 71 backlink doesn't.
+
+Up to 50% off right now, and the price goes back up when the sale ends.
+
+Five minutes and your product is findable forever 🚀
+
+https://t.co/bVeuo9jZkv","369","6","1","0","1"
+"brian_millot","2433","https://x.com/brian_millot/status/2119494579099471894","2026-11-08 13:17 ET","Woooh, today $238 🥳🤑
+
+DirPilot just got a $199 directory submission order
+
+I did zero marketing on that site. No ads, no launch, no posts. Just SEO quietly doing its job
+
+Then Blipix lands a new $39 subscription
+
+This is why you keep building
+
+What you ship today can pay you months from now
+
+Plant the seeds. Stay patient.","1047","37","29","0","1"
