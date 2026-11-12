@@ -1,9 +1,13 @@
 """
-Prints the three findings in a clean, readable form, for screen recording.
+Reads a CSV of posts and reports which kind of engagement actually tracks reach.
 
-No API calls. Instant. Safe to type live on camera:
+Works on anyone's posts, not just the sample in this repo. Needs these columns:
+account handle, post text, views, likes, replies, reposts, bookmarks.
 
-    python findings.py
+No API calls, no key, instant:
+
+    python findings.py                 # the 42-post sample in this repo
+    python findings.py my-posts.csv    # your own export
 """
 import csv
 import io
@@ -55,6 +59,10 @@ def main():
 
     ratio = [r["ratio"] for r in rows]
 
+    by_link = defaultdict(lambda: {True: [], False: []})
+    for r in rows:
+        by_link[r["account handle"]][r["link"]].append(r["views"])
+
     print()
     print("  {} posts.  {} accounts.  All under 50k followers.".format(
         len(rows), len(by)))
@@ -71,8 +79,15 @@ def main():
     for k, s in sorted(scores, key=lambda x: -x[1]):
         print("    {:<10} {:+.3f}  {}".format(k, s, bar(s)))
     print()
-    print("    Bookmarks win by 4x. And there is no bookmark weight")
-    print("    anywhere in the algorithm file.")
+    top, second = sorted(scores, key=lambda x: -x[1])[:2]
+    if second[1] > 0:
+        print("    {} leads by {:.1f}x over {}.".format(
+            top[0], top[1] / second[1], second[0]))
+    else:
+        print("    {} leads; nothing else tracks reach positively.".format(top[0]))
+    if top[0] == "bookmarks":
+        print("    And there is no bookmark weight anywhere in the")
+        print("    published weight table.")
     print()
     print("  " + "-" * 58)
     print("  THE ADVICE: 'DON'T POST LINKS'")
@@ -83,7 +98,18 @@ def main():
     print("    with a link      n={:<3}  median {:.2f}x".format(len(w), statistics.median(w)))
     print("    without a link   n={:<3}  median {:.2f}x".format(len(wo), statistics.median(wo)))
     print()
-    print("    No penalty. Every video still repeats it.")
+    print("    Careful: if most of your posts have links, the median is")
+    print("    mostly made of link posts, so this compares them against")
+    print("    themselves. The per-account split below is the real test.")
+    print()
+    both = 0
+    for h, d in sorted(by_link.items()):
+        if d[True] and d[False]:
+            both += 1
+            print("    {:<18} link posts {:.2f}x its own non-link posts".format(
+                h, statistics.median(d[True]) / statistics.median(d[False])))
+    if not both:
+        print("    No account here has both kinds of post. Nothing to compare.")
     print()
     print("  " + "-" * 58)
     print("  THE SCORER I BUILT FROM THE WEIGHTS")
@@ -95,7 +121,7 @@ def main():
         s = spearman([o["earned_weight"] for o in v], [o["ratio"] for o in v])
         print("    correlation with actual reach:  {:+.3f}".format(s))
         print()
-        print("    That is noise. It does not work.")
+        print("    Anything near zero is noise.")
     except FileNotFoundError:
         print("    validation.json not found. See validate.py.")
     print()

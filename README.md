@@ -1,8 +1,14 @@
 # x-ranking-check
 
-X published its ranking code. I pulled the engagement weights out of it, built a
-tool that grades a draft post against them, and then tested that tool against 42
-real posts from six founders under 50k followers.
+The posts that traveled furthest were the ones people saved. Bookmarks tracked
+reach more than twice as strongly as reposts and five times as strongly as
+replies, while likes tracked it slightly negatively. X's published ranking code
+has no value for bookmarks anywhere in it.
+
+That came out of trying to do something else. X put the code behind its algorithm
+on GitHub, so I pulled the engagement weights out of it, built a tool that grades
+a draft post against them, and tested that tool against 42 real posts from six
+founders under 50k followers.
 
 The tool does not work. Here is everything, including the failure.
 
@@ -25,6 +31,7 @@ python findings.py
 
     with a link      n=30   median 1.00x
     without a link   n=12   median 0.98x
+    (see the caveat below: this comparison is weaker than it looks)
 
   THE SCORER I BUILT FROM THE WEIGHTS
 
@@ -33,19 +40,42 @@ python findings.py
 
 ## Three things that came out of it
 
-**Bookmarks track reach about four times better than anything else, and there is
-no bookmark weight anywhere in the file.** Search `param.rs` for "bookmark" and
-you get nothing. Whatever bookmarks are doing, they are not doing it through the
+**Bookmarks track reach better than anything else, and there is no bookmark
+weight anywhere in the file.** +0.558 against +0.265 for reposts, +0.099 for
+replies and -0.060 for likes. Search `param.rs` for "bookmark" and you get
+nothing. Whatever bookmarks are doing, they are not doing it through the
 published weight table.
 
-**The link penalty did not show up.** 30 of the 42 posts contained a link. Their
-median was 1.00x their own account's median views, against 0.98x for the 12
-without. Every growth video still repeats the penalty as fact.
+**The link penalty did not show up, but this sample cannot settle it.** 30 of the
+42 posts contain a link, which means each account's median is mostly made of link
+posts, so comparing link posts against that median is close to comparing them
+against themselves. Comparing each account's link posts against its own non-link
+posts is the honest test, and only 5 accounts have both kinds. The results are
+7.27x, 8.72x, 0.43x, 0.89x and 1.75x. No penalty, and no pattern. Treat this as
+"nothing showed up in 42 posts," not as evidence that links are free. There is no
+link penalty term in the published weights, but a post with a link plausibly earns
+fewer replies and reposts because readers leave, and those actions are what the
+weights pay for.
 
 **A text scorer built from the weights is worthless.** Spearman correlation
 between earned weight and actual reach is -0.047, which is noise. Posts that beat
 their account's median and posts that died scored the same. The weights are real;
 reading a post's text is not enough to predict which actions people will take.
+
+## Use it on your own posts
+
+`findings.py` works on any CSV with these columns: account handle, post text,
+views, likes, replies, reposts, bookmarks. No API key, no install beyond Python.
+
+```
+python findings.py my-posts.csv
+```
+
+It ranks your engagement types by how well each one tracks reach, measured
+against each account's own median rather than raw counts, and splits your link
+posts against your non-link posts per account. If your numbers disagree with
+mine, that is the useful outcome. 42 posts from 6 accounts is a small sample and
+I would rather see it broken than repeated.
 
 ## Method
 
